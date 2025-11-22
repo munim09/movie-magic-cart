@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+    --color-mint-500: oklch(0.72 0.11 178);
+    --color-mint-600: oklch(0.75 0.11 178);
+    --color-primary: #00d991;
+}
+
+/* body {
+    @apply bg-[#171923] text-white;
+} */
+
+@variant dark (&:where(.dark &));
+
+/* -----------------------------------
+   GLOBAL DARK MODE STYLING
+----------------------------------- */
+
+.dark {
+    /* Base dark mode bg + text color */
+    @apply bg-[#171923] text-white;
+}
+
+/* -----------------------------------
+   CONTAINER OVERRIDE (Your custom)
+----------------------------------- */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.25rem; /* same as p-5 */
+}
+
+/* @layer utilities {
+    .container {
+        center: true;
+        padding: "1.25rem";
+    }
+    .colors {
+        primary: "#00D991";
+    }
+} */
+
+/* @theme dark {
+    --color-bg: #171923;
+    --color-text: white;
+} */
+
+/* .container {
+    center: true;
+    padding: 1.25rem;
+} */
+/* .colors {
+    primary: "#00D991";
+} */

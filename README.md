@@ -15,3 +15,12 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 "# movie-magic-cart" 
+Please follow the below instructions to run this branch in your machine:
+```sh
+git clone https://github.com/munim09/movie-magic-cart.git
+cd project
+git checkout -m Main
+npm i
+npm install --save react-toastify   # for toast message
+npm run dev
+```
