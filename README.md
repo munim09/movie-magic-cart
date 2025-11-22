@@ -19,7 +19,7 @@ Please follow the below instructions to run this branch in your machine:
 ```sh
 git clone https://github.com/munim09/movie-magic-cart.git
 cd project
-git checkout -m Main
+git checkout -M main
 npm i
 npm install --save react-toastify   # for toast message
 npm run dev
